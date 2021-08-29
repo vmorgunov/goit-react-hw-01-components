@@ -1,5 +1,16 @@
 @import-normalize;
 
+:root {
+  --accent-color: #797c7f;
+  --green-color: #008000;
+  --red-color: #ff0000;
+  --white-color: #fff;
+  --secondary-accent-color: #d5e1e2;
+  --table-header: #00bcd5;
+  --table-body: #f2f2f2;
+  --border-color: #ddd;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,9 +18,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
