@@ -4,7 +4,7 @@ import { Online, Offline, Avatar, Name, Item } from './FriendList.styled';
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <Item>
-      {isOnline ? <Online></Online> : <Offline></Offline>}
+      {isOnline ? <Online /> : <Offline />}
       <Avatar src={avatar} alt={name} />
       <Name>{name}</Name>
     </Item>

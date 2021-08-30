@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import {
   Name,
   Container,
-  Desrp,
+  Desripction,
   Avatar,
   Tag,
   Location,
@@ -15,12 +15,12 @@ import {
 export default function Profile({ avatar, name, tag, location, stats }) {
   return (
     <Container>
-      <Desrp>
+      <Desripction>
         <Avatar src={avatar} alt="Аватар пользователя" />
         <Name>{name}</Name>
         <Tag>{tag}</Tag>
         <Location>{location}</Location>
-      </Desrp>
+      </Desripction>
 
       <Stats>
         <Item>

@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 280px;
 `;
 
-export const Desrp = styled.div`
+export const Desripction = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
